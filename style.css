@@ -77,12 +77,6 @@ body.skin-pressrow * html pre {
 
 /*---:[ headlines ]:---*/
 
-body.skin-pressrow h1 { 
-	font-weight: bold; 
-	font-size: 4.0em; 
-	line-height: 1.8em; 
-}
-
 body.skin-pressrow #header {
 	text-align: right;
 }
@@ -177,23 +171,24 @@ body.skin-pressrow .post h4 {
 /*---:[ core layout elements ]:---*/
 
 body.skin-pressrow #wrapper { 
-	width: 770px; 
-	margin: 0 auto; 
+	width: 960px; 
+	margin: 30px auto; 
+	clear: both;
 }
 
 body.skin-pressrow #container { 
-	width: 770px; 
+	width: 960px; 
 	float: left; 
 }
 
 body.skin-pressrow #header { 
-	width: 770px; 
+	width: 960px; 
 	margin-bottom: 30px; 
 	float: left; 
 }
 
 body.skin-pressrow #content_box { 
-	width: 770px; 
+	width: 960px; 
 	padding-bottom: 5px; 
 	text-align: left; 
 	float: left; 
@@ -224,7 +219,7 @@ body.skin-pressrow * html .sidebar {
 }
 
 body.skin-pressrow #footer { 
-	width: 770px; 
+	width: 960px; 
 	padding-top: 8px; 
 	border-top: 4px solid #222; 
 	font-size: 1.2em; 
@@ -278,7 +273,7 @@ body.skin-pressrow #navigation li.current_page_item a:link, #navigation li.curre
 }
 
 body.skin-pressrow #pic { 
-	width: 770px; 
+	width: 960px; 
 	height: 200px; 
 	border-bottom: 2px solid #222; 
 	clear: both; 
@@ -371,8 +366,8 @@ body.skin-pressrow .post img.center_off {
 	margin: 0 auto 15px auto; 
 }
 
-body.skin-pressrow .post_meta { 
-	width: 480px; 
+body.skin-pressrow .meta-below-content { 
+	width: 100%; 
 	padding: 4px 10px; 
 	border-top: 1px dotted #bbb; 
 	border-bottom: 1px dotted #bbb; 
@@ -381,29 +376,30 @@ body.skin-pressrow .post_meta {
 	float: left; 
 }
 
-body.skin-pressrow p.num_comments { 
+body.skin-pressrow .meta-below-content .left { 
 	padding-left: 27px; 
 	margin-bottom: 0; 
-	line-height: 1.6em; 
+	line-height: 2.0em; 
 	background: url('images/icon_excl.gif') 0 50% no-repeat; 
-	float: right; 
-}
-
-body.skin-pressrow p.tagged { 
-	padding-left: 27px; 
-	margin-bottom: 0; 
-	line-height: 1.6em; 
-	background: url('images/icon_file.gif') top left no-repeat; 
-	width: 70%; 
 	float: left; 
 }
 
+body.skin-pressrow .meta-below-content .right { 
+	padding-left: 27px; 
+	margin-bottom: 0; 
+	line-height: 2.0em; 
+	background: url('images/icon_file.gif') top left no-repeat; 
+/*	width: 0%; */
+	margin-right: 20px;
+	float: right; 
+}
+
 body.skin-pressrow .navigation { 
-	width: 770px; 
+	width: 960px; 
 /*	margin-bottom: 30px;*/ 
 /*	font-size: 1.4em; */
 /*	line-height: 1.7em; */
-	background: #f5f5f5; 
+/*	background: #f5f5f5; */
 	float: left;
 }
 
@@ -522,7 +518,7 @@ body.skin-pressrow #comments {
 	clear: both; 
 }
 
-body.skin-pressrow ul.comment_list { 
+body.skin-pressrow ol.commentlist { 
 	width: 100%; 
 	list-style: none; 
 	margin-bottom: 40px; 
@@ -530,7 +526,9 @@ body.skin-pressrow ul.comment_list {
 	float: left;
 }	
 
-body.skin-pressrow ul.comment_list li, ul.comment_list li.thread-alt, ul.comment_list li.author_comment_, ul.comment_list li.author_comment_alt { padding: 15px 0px 5px 10px; 
+body.skin-pressrow ol.commentlist li, ol.commentlist li.thread-alt, ol.commentlist li.author_comment_, 
+ol.commentlist li.author_comment_alt { 
+	padding: 15px 0px 5px 10px; 
 	border-bottom: 1px dotted #bbb; 
 	list-style: none; 
 }
