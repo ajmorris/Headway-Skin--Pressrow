@@ -19,7 +19,7 @@ function register_pressrow_skin(){
     'show-navigation-subpages' => false,
     'sub-nav-width' => 250,
     
-    'show-tagline' => true,
+    'show-tagline' => false,
     'show-navigation' => true,
     'show-breadcrumbs' => false,
     
