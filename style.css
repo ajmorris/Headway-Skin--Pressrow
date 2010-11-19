@@ -191,16 +191,17 @@ body.skin-pressrow #header {
 	float: left; 
 }
 
-body.skin-pressrow #content_box { 
+/*body.skin-pressrow #content_box { 
 	width: 960px; 
 	padding-bottom: 5px; 
 	text-align: left; 
 	float: left; 
-}
+}*/
 
 body.skin-pressrow .content { 
-	width: 500px; 
+/*	width: 500px;*/ 
 /*	padding-right: 10px; */
+	margin-right: 40px;
 	overflow: visible; 
 	float: left; 
 }
