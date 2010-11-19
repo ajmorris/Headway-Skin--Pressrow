@@ -103,27 +103,31 @@ body.skin-pressrow h2 {
 	font-size: 2.0em; 
 }
 
-body.skin-pressrow .post h2, .page h2, .attachment h2 { 
+/* .page */
+/*body.skin-pressrow .post h2, .attachment h2 { 
 	color: #000; 
 	line-height: normal; 
 	padding-top: 10px; 
 	margin-bottom: 10px; 
 }
-
-body.skin-pressrow .post h2 a, .page h2 a, .attachment h2 a { 
+*/
+/* .page */
+/*body.skin-pressrow .post h2 a, .attachment h2 a { 
 	color: #000; 
 	text-decoration: none; 
 }
-
-body.skin-pressrow .post h2 a:visited, .page h2 a:visited, .attachment h2 a:visited { 
+*/
+/* .page */
+/*body.skin-pressrow .post h2 a:visited, .attachment h2 a:visited { 
 	color: #666; 
 	text-decoration: none; 
 }
-
-body.skin-pressrow .post h2 a:hover, .page h2 a:hover, .attachment h2 a:hover { 
+*/
+/* .page */
+/*body.skin-pressrow .post h2 a:hover, .attachment h2 a:hover { 
 	color: #1c9bdc; 
 	text-decoration: none; 
-}
+}*/
 
 body.skin-pressrow .sidebar h2 { 
 	color: #999; 
@@ -160,13 +164,13 @@ body.skin-pressrow h4 {
 	font-size: .8em; 
 }
 
-body.skin-pressrow .post h4 { 
+/*body.skin-pressrow .post h4 { 
 	display: inline; 
 	padding: 4px; 
 	text-transform: uppercase; 
 	background: #f5f5f5; 
 	border-bottom: 1px solid #ddd; 
-}
+}*/
 
 /*---:[ core layout elements ]:---*/
 
@@ -282,7 +286,8 @@ body.skin-pressrow #pic {
 }
 
 /*---:[ content styles ]:---*/
-body.skin-pressrow .post, .page, .attachment { 
+/* .page */
+/*body.skin-pressrow .post, .attachment { 
 	width: 500px; 
 	margin-bottom: 50px; 
 	font-size: 1.4em; 
@@ -308,21 +313,21 @@ body.skin-pressrow .post ul {
 body.skin-pressrow .post li { 
 	padding: 3px 0; 
 }
-
-body.skin-pressrow .post ul li ul, .post ul li ol, .post ol li ul, .post ol li ol { 
+*/
+/*body.skin-pressrow .post ul li ul, .post ul li ol, .post ol li ul, .post ol li ol { 
 	margin: 0 0 0 30px; 
 }
-
-body.skin-pressrow .post dl { 
+*/
+/*body.skin-pressrow .post dl { 
 	margin-bottom: 15px; 
 }
-
-body.skin-pressrow .post dt { 
+*/
+/*body.skin-pressrow .post dt { 
 	font-weight: bold; 
 	color: #000; 
 }
-
-body.skin-pressrow .post dd { 
+*/
+/*body.skin-pressrow .post dd { 
 	margin: 0 0 0 20px; 
 	font-style: italic; 
 }
@@ -360,7 +365,7 @@ body.skin-pressrow .post img.center {
 	background: #f5f5f5; 
 	border: 1px solid #bbb; 
 }
-
+*/
 body.skin-pressrow .post img.center_off { 
 	display: block; 
 	margin: 0 auto 15px auto; 
